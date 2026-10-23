@@ -1,5 +1,5 @@
 from typing import Annotated 
-from pydantic import BaseModel, EmailStr, Field, StringConstraints]
+from pydantic import BaseModel, EmailStr, Field, StringConstraints
 
 class UserCreate(BaseModel):
     user_id: int = Field(gt=0)
